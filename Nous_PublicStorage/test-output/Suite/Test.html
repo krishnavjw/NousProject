@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 10 20:52:04 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1520 seconds (1520015 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scenarios.AWB_V2.Edit_buyer_details_function.Edit_buyer_details_function()'><b>Edit_buyer_details_function</b><br>Test class: Scenarios.AWB_V2.Edit_buyer_details_function<br>Parameters: {Runmode=Y, Firstname=nous, Street=royal, UserName=930326, exchange=888, Password=password, email=nous@gmail.com, City=Newyark, AWB_V2.0=Y, location=6666, Address1=3rd cross, Areacode=987, TestCases=Edit_buyer_details_function}<br/>
+<a href="#Output-870508449" onClick='toggleBox("Output-870508449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870508449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870508449">
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484061782814.jpg<br/>
+Connected to the database...<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484061917388.jpg<br/>
+Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='emails-container padding-bottom clearfix-container']/div[2]/div/div"}
+  (Session info: chrome=56.0.2924.51)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 80.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NIBC2466', ip: '10.140.1.149', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+*** Element info: {Using=xpath, value=//div[@class='emails-container padding-bottom clearfix-container']/div[2]/div/div}
+Session ID: df42131aff7f7d8cdbe85ef6a95304ec
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir7060_24354, chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.51, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]<br/>
+</div>
+</td>
+<td></td>
+<td>269</td>
+<td>Scenarios.AWB_V2.Edit_buyer_details_function@4ea10ca8</td></tr>
+<tr>
+<td title='Scenarios.AWB_V2.Edit_tax_exemption_function.Edit_tax_exemption_function()'><b>Edit_tax_exemption_function</b><br>Test class: Scenarios.AWB_V2.Edit_tax_exemption_function<br>Parameters: {Runmode=Y, Month=10, Firstname=NA, Street=NA, UserName=122666, exchange=NA, Password=password, email=NA, year=2021, Tax_num=123, day=21, City=NA, AWB_V2.0=Y, location=NA, Address1=NA, Areacode=NA, TestCases=Edit_tax_exemption_function}<br/>
+<a href="#Output-404210918" onClick='toggleBox("Output-404210918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-404210918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-404210918">
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062061392.jpg<br/>
+Connected to the database...<br/>
+Connected to the database...<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062200083.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062225820.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062276492.jpg<br/>
+Connected to the database...<br/>
+</div>
+</td>
+<td></td>
+<td>264</td>
+<td>Scenarios.AWB_V2.Edit_tax_exemption_function@d8e1916</td></tr>
+<tr>
+<td title='Scenarios.AWB_V2.Verify_AuctionBuyer_with_name_auction_account_customer_account.Verify_AuctionBuyer_with_name_auction_account_customer_account_mtd()'><b>Verify_AuctionBuyer_with_name_auction_account_customer_account_mtd</b><br>Test class: Scenarios.AWB_V2.Verify_AuctionBuyer_with_name_auction_account_customer_account<br>Parameters: {AWB_V2.0=Y, Password=password, Runmode=Y, TestCases=Verify_AuctionBuyer_with_name_auction_account_customer_account, UserName=930326}<br/>
+<a href="#Output-941798494" onClick='toggleBox("Output-941798494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-941798494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-941798494">
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062341968.jpg<br/>
+Connected to the database...<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062396197.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062398380.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062528043.jpg<br/>
+</div>
+</td>
+<td></td>
+<td>233</td>
+<td>Scenarios.AWB_V2.Verify_AuctionBuyer_with_name_auction_account_customer_account@2f4611ec</td></tr>
+<tr>
+<td title='Scenarios.AWB_V2.Verify_create_note_functions.Verify_create_note_functions()'><b>Verify_create_note_functions</b><br>Test class: Scenarios.AWB_V2.Verify_create_note_functions<br>Parameters: {AWB_V2.0=Y, Password=password, Runmode=Y, TestCases=Verify_create_note_functions, UserName=930326}<br/>
+<a href="#Output-246737000" onClick='toggleBox("Output-246737000", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-246737000" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-246737000">
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062588843.jpg<br/>
+Connected to the database...<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062724413.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062825272.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062829509.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484062831634.jpg<br/>
+Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='k-grid-content ps-container ps-active-y ps-active-x']//tr[1]/td[4]"}
+  (Session info: chrome=56.0.2924.51)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 80.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NIBC2466', ip: '10.140.1.149', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_09'
+*** Element info: {Using=xpath, value=//div[@class='k-grid-content ps-container ps-active-y ps-active-x']//tr[1]/td[4]}
+Session ID: 260246122cadd7b38b24f6b00ed9c0d6
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir10328_3266, chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=56.0.2924.51, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]<br/>
+</div>
+</td>
+<td></td>
+<td>493</td>
+<td>Scenarios.AWB_V2.Verify_create_note_functions@123b6177</td></tr>
+<tr>
+<td title='Scenarios.AWB_V2.Verify_uction_buyer_address_Phone_Email_ID.Verify_uction_buyer_address_Phone_Email_ID()'><b>Verify_uction_buyer_address_Phone_Email_ID</b><br>Test class: Scenarios.AWB_V2.Verify_uction_buyer_address_Phone_Email_ID<br>Parameters: {AWB_V2.0=Y, Password=password, Runmode=Y, TestCases=Verify_uction_buyer_address_Phone_Email_ID, UserName=930326}<br/>
+<a href="#Output-290654887" onClick='toggleBox("Output-290654887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-290654887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-290654887">
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484063092091.jpg<br/>
+Connected to the database...<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484063146742.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484063148902.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484063151046.jpg<br/>
+E:\PS_WorkSpace\Nous_PublicStorage\src\main\resources\ScreenShots\screenshot_1484063235257.jpg<br/>
+</div>
+</td>
+<td></td>
+<td>198</td>
+<td>Scenarios.AWB_V2.Verify_uction_buyer_address_Phone_Email_ID@6c10fa4d</td></tr>
+</table><p>
+</body>
+</html>

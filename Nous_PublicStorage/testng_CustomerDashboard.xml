@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+       <test name="Test">
+              <classes>
+              
+             <class name="Scenarios.CustomerDashboard.CustDash_Verify_CustomerInfo_SpaceDetails_AccActivities_Documents"></class>    
+             <class name="Scenarios.CustomerDashboard.CustDash_Verify_ManageAutopay_Link"></class>
+             <class name="Scenarios.CustomerDashboard.CustDash_Verify_ToFlag_AUnit_For_Maintenance"></class>
+             <class name="Scenarios.CustomerDashboard.CustDash_Verify_ViewDetails_In_Payment"></class> 
+             <class name="Scenarios.CustomerDashboard.CustomerDashBoard_VerifyBusinessCustomerName_ClassificationDetails"></class> 
+             <class name="Scenarios.CustomerDashboard.CustomerDashboard_VerifyCustomer_AuctionBuyer"></class>
+             <class name="Scenarios.CustomerDashboard.CustomerDashBoard_VerifyCustomerName_InformationOnHeader"></class> 
+             <class name="Scenarios.CustomerDashboard.CustomerDashboard_VerifyEmailResend_FromActivities"></class>
+             <!-- <class name="Scenarios.CustomerDashboard.CustomerDashBoard_VerifyUnvacate_LaunchFucntion"></class> -->
+             <class name="Scenarios.CustomerDashboard.CustomerDashboard_ViewCustomerInfoTab_ForAccountNumber_AddressPhoneEmail_All_UserNameMilitaryID"></class>
+             <class name="Scenarios.CustomerDashboard.CustomerDashboard_Viewdetails_ActiveMilitary"></class>
+             <class name="Scenarios.CustomerDashboard.CustomerDashboard_Viewdetails_NotMilitary"></class>  
+             <class name="Scenarios.CustomerDashboard.Verify_AccountActivities_Tab_For_Filters_SearchAnd_Display"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_Bankruptcy_Declared_Flag_ImportantInformation"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_Deceased_Notified_Flag_ImportantInformation"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_Do_Not_Rent_Flag_ImportantInformation"></class>
+          <!--    <class name="Scenarios.CustomerDashboard.Verify_NoChecks_NoCredit_Flag_ImportantInformation"></class> 
+             <class name="Scenarios.CustomerDashboard.Verify_NoPayment_Flag_ImportantInformation"></class> -->
+             <class name="Scenarios.CustomerDashboard.Update_NoChecks_NoCredit_NoPayments_Flag"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_To_See_Can_Able_To_Change_PaymentCommitment_Date"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_PaymentInfoScreen_For_SingleUnit"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_Reset_Password_Functionality"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_To_See_CreateNote_Button_And_Verify_FunctionWorks"></class> 
+             <class name="Scenarios.CustomerDashboard.Verify_ToSee_Added_Documents_InDocTab"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_ToSee_QuickLinks"></class> 
+             <class name="Scenarios.CustomerDashboard.CustomerDashBoard_VerifyIndividualCustomerName_Military_ClassificationDetails"></class>
+             <class name="Scenarios.CustomerDashboard.Verify_Ability_To_Add_Or_Remove_Document"></class>        		
+ 
+		</classes>
+		</test> <!--  Test  -->
+</suite> <!--  Suite  -->

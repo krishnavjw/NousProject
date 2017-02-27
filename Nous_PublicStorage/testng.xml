@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+	
+	
+	
+	
+	
+	<class name="Scenarios.AWB_V2.Edit_buyer_details_function"></class>
+	 <class name="Scenarios.AWB_V2.Edit_tax_exemption_function"></class>
+	 <class name="Scenarios.AWB_V2.Verify_AuctionBuyer_with_name_auction_account_customer_account"></class>
+	 <class name="Scenarios.AWB_V2.Verify_create_note_functions"></class>
+	 <class name="Scenarios.AWB_V2.Verify_uction_buyer_address_Phone_Email_ID"></class>
+	
+	
+	
+	
+	
+	 		
+			
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
