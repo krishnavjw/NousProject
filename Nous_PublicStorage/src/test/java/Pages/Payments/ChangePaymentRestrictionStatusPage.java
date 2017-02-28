@@ -61,5 +61,9 @@ public ChangePaymentRestrictionStatusPage(WebDriver driver){
 	public void click_updateBtn(){
 		updateBtn.click();
 	}
+	public void updateBtn()
+	{
+		updateBtn.click();
+	}
 	
 }
